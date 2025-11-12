@@ -1,0 +1,14 @@
+name: Lint Markdown
+
+on:
+  push:
+    paths:
+      - "**.md"
+  pull_request:
+
+jobs:
+  mdl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: articulate/actions-markdownlint@v1
