@@ -1,0 +1,33 @@
+site_name: Plan de Acción Financiero Integral
+site_description: Documentación operativa (30/60/90), ofertas, KPIs y cumplimiento.
+site_url: https://delaren47.github.io/plan-accion-financiero-integral/
+repo_url: https://github.com/delaren47/plan-accion-financiero-integral
+repo_name: delaren47/plan-accion-financiero-integral
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+    - content.code.copy
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+nav:
+  - Inicio: index.md
+  - Roadmap 30/60/90: roadmap_30_60_90.md
+  - Ofertas y Precios: ofertas_y_precios.md
+  - KPIs: kpis_mensuales_semanales.md
+  - Validación Rápida: validacion_rapida.md
+  - LLC Cumplimiento Fiscal: llc_cumplimiento_fiscal.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
