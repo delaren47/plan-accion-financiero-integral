@@ -1,0 +1,32 @@
+categoria,concepto,monto_mxn,frecuencia,proveedor,notas,critico
+Gastos Personales,Renta/vivienda,3000,mensual,N/A,Ajustar si es posible,SI
+Gastos Personales,Alimentos,2000,mensual,N/A,Presupuesto estricto,SI
+Gastos Personales,Servicios (luz agua internet),1000,mensual,N/A,Internet es crítico para trabajo,SI
+Gastos Personales,TOTAL GASTOS PERSONALES,6000,mensual,N/A,,SI
+Deuda,Nu Card - Plan de pagos,7100,mensual,Nu,99.9% - EN DISPUTA CONDUSEF,SI
+Deuda,TDC #2,2000,mensual,Banco 2,~50% anual,SI
+Deuda,TDC #3,1600,mensual,Banco 3,~50% anual,SI
+Deuda,TDC #4,1300,mensual,Banco 4,~50% anual,SI
+Deuda,Hermana,0,flexible,Familia,Sin intereses - PAGAR AL FINAL,NO
+Deuda,TOTAL DEUDA MENSUAL,12000,mensual,N/A,,SI
+Profesional - México,Contador SAT,500,mensual,Contador MX,Declaraciones y consultas,SI
+Profesional - Canadá,Contador Canadá,800,mensual,Contador CA,Conversión a MXN aprox,SI
+Profesional - EE.UU.,Contador/CPA EE.UU.,0,anual,Contador US,Solo cuando se active LLC,NO
+Profesional,TOTAL CONTADORES,1300,mensual,N/A,,SI
+Herramientas,Hosting/dominio,200,mensual,Proveedor hosting,Sitio web y email,NO
+Herramientas,Software de productividad,150,mensual,Varios,Google Workspace o similar,NO
+Herramientas,CRM/Automatización,0,mensual,N/A,Usar herramientas gratuitas por ahora,NO
+Herramientas,Zoom/videollamadas,0,mensual,Zoom,Plan gratuito suficiente,NO
+Herramientas,TOTAL HERRAMIENTAS,350,mensual,N/A,,NO
+LLC - EE.UU. (PAUSADO),Registered Agent,0,anual,N/A,No activo actualmente,NO
+LLC - EE.UU. (PAUSADO),Filing fees Wyoming,0,anual,N/A,No activo actualmente,NO
+LLC - EE.UU. (PAUSADO),Cuenta bancaria (Mercury/Relay),0,mensual,N/A,No activo actualmente,NO
+LLC - EE.UU. (PAUSADO),TOTAL LLC,0,mensual,N/A,Activar solo cuando haya clientes US,NO
+Revenue Share,Hermano - Co-venta,0,variable,Familia,20% de ingresos NETOS de clientes que él origine,NO
+Revenue Share,TOTAL COMISIONES,0,variable,N/A,Solo aplica cuando haya ventas conjuntas,NO
+TOTALES,GASTOS FIJOS MENSUALES,19650,mensual,N/A,Gastos + Deuda + Contadores + Herramientas,SI
+TOTALES,PUNTO DE EQUILIBRIO BÁSICO,19650,mensual,N/A,Mínimo necesario para no quebrar,SI
+TOTALES,PUNTO DE EQUILIBRIO + 20% MARGEN,23580,mensual,N/A,Recomendado para seguridad,SI
+TOTALES,INGRESOS ACTUALES,25950,mensual,N/A,2 clientes MX + 2 clientes CA,N/A
+TOTALES,MARGEN ACTUAL,6300,mensual,N/A,Ingresos - Gastos Fijos,N/A
+TOTALES,FLUJO LIBRE REAL,950,mensual,N/A,Después de TODO (incluyendo contadores),CRÍTICO

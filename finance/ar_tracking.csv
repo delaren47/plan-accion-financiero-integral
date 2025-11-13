@@ -1,1 +1,9 @@
-fecha_factura,cliente,monto_usd,vence,dias_pendientes,estado,notas
+fecha_factura,num_factura,cliente,pais,monto_mxn,monto_moneda_original,moneda,vence,dias_pendientes,estado,metodo_pago,fecha_cobro_esperada,fecha_cobro_real,dias_mora,notas
+2025-11-01,MX-001,Cliente MX 1,Mexico,6500,6500,MXN,2025-11-30,13,Pendiente,Transferencia,2025-11-30,,0,Anticipo 50% proyecto WhatsApp
+2025-11-01,MX-002,Cliente MX 2,Mexico,6500,6500,MXN,2025-11-30,13,Pendiente,Transferencia,2025-11-30,,0,Retainer mensual Nov
+2025-11-01,CA-001,Cliente CA 1,Canada,6475,250,CAD,2025-11-30,13,Pendiente,Wise,2025-11-30,,0,Servicios profesionales Nov
+2025-11-01,CA-002,Cliente CA 2,Canada,6475,250,CAD,2025-11-30,13,Pendiente,Wise,2025-11-30,,0,Servicios profesionales Nov
+2025-12-01,MX-003,Cliente MX 1,Mexico,6500,6500,MXN,2025-12-31,0,Futuro,Transferencia,2025-12-31,,0,Retainer mensual Dic
+2025-12-01,MX-004,Cliente MX 2,Mexico,6500,6500,MXN,2025-12-31,0,Futuro,Transferencia,2025-12-31,,0,Retainer mensual Dic
+2025-12-01,CA-003,Cliente CA 1,Canada,6475,250,CAD,2025-12-31,0,Futuro,Wise,2025-12-31,,0,Servicios profesionales Dic
+2025-12-01,CA-004,Cliente CA 2,Canada,6475,250,CAD,2025-12-31,0,Futuro,Wise,2025-12-31,,0,Servicios profesionales Dic
