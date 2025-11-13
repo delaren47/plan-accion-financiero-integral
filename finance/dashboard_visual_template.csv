@@ -1,0 +1,30 @@
+SECCION,METRICA,VALOR_ACTUAL,META_30_DIAS,META_60_DIAS,META_90_DIAS,FORMULA,NOTAS
+FINANCIERO,Ingresos Mensuales,25950,33950,40950,45950,=SUM(FlujoCaja!C:C),Suma de columna ingresos en hoja FlujoCaja
+FINANCIERO,Margen Neto Mensual,950,8650,15650,20650,=Ingresos-Gastos-Deuda,Ingresos - Gastos Personales - Pago Deuda - Contadores - Herramientas
+FINANCIERO,Fondo Emergencia,0,6298,10000,20000,=SUM(Dashboard!Flujo_Neto_Semanal),Acumulado de flujo neto semanal destinado a fondo
+FINANCIERO,Punto Equilibrio,19650,19650,19650,19650,,No cambia - es fijo
+FINANCIERO,% Sobre Equilibrio,132,173,208,234,=(Ingresos/PuntoEquilibrio)*100,Porcentaje de ingresos sobre punto de equilibrio
+DEUDA,Deuda Total,160000,158000,150000,140000,=SUMA de todas las deudas,Actualizar manualmente con estados de cuenta
+DEUDA,Saldo Nu Card,85200,73200,58200,42200,=Saldo inicial - pagos,Actualizar cada mes con estado de cuenta
+DEUDA,Pago Mensual Deuda,12000,12000,12000,12000,,Suma de pagos mínimos mensuales
+DEUDA,Tasa Nu Card,%99.9,%99.9 o menos si CONDUSEF resuelve,%50 (objetivo),%50,Depende de CONDUSEF,Actualizar si CONDUSEF reduce tasa
+DEUDA,Reducción vs Inicio,0,-2000,-10000,-20000,=Deuda Actual - Deuda Inicial,Negativo es bueno (bajó deuda)
+COMERCIAL,Clientes Activos,4,5,6,7,Contar en CRM,México + Canadá
+COMERCIAL,Clientes México,2,3,4,5,Contar en CRM,Solo México
+COMERCIAL,Retainers Activos,0,0,1,2-3,Contar en CRM etapa Retainer,Contratos mensuales recurrentes
+COMERCIAL,Pipeline Value,0,40000,60000,80000,=SUMA valor_mxn WHERE etapa IN (Prospecto Reunión Propuesta),Suma de oportunidades activas
+COMERCIAL,Leads Contactados Mes,0,30,40,50,Contar registros mes actual en CRM,Acumulado mensual
+COMERCIAL,Propuestas Enviadas Mes,0,4,6,8,Contar WHERE etapa=Propuesta,Acumulado mensual
+COMERCIAL,Tasa Conversión,%0,%20,%25,%30,=Cierres/Propuestas*100,Porcentaje de propuestas que cierran
+SEMANAL,Semana Número,46,50,54,58,,Número de semana del año
+SEMANAL,Ingresos Semana,0,6500,10000,11500,Actualizar cada lunes,Ingresos cobrados esta semana
+SEMANAL,Gastos Semana,4913,4913,4913,4913,Gastos fijos / 4,Promedio semanal
+SEMANAL,Flujo Neto Semana,0,1587,5087,6587,=Ingresos Semana - Gastos Semana,Disponible para fondo/pago extra
+SEMANAL,Leads Contactados,0,10,10,10,,Meta: 10/semana siempre
+SEMANAL,Reuniones Realizadas,0,2,2,3,,Meta: 2-3/semana
+SEMANAL,Propuestas Enviadas,0,2,2,2,,Meta: 2/semana mínimo
+ALERTAS,Margen < $1000,SI,NO,NO,NO,=SI(MargenNeto<1000 "SI" "NO"),Alerta si margen muy bajo
+ALERTAS,Pipeline < $40K,SI,NO,NO,NO,=SI(PipelineValue<40000 "SI" "NO"),Alerta si pipeline bajo
+ALERTAS,Fondo < $5K,SI,SI,NO,NO,=SI(FondoEmergencia<5000 "SI" "NO"),Alerta hasta acumular $5K
+ALERTAS,DSO > 30 días,NO,NO,NO,NO,=SI(PROMEDIO(DiasCobroAR)>30 "SI" "NO"),Alerta si cobros muy lentos
+ALERTAS,Leads < 5 activos,SI,NO,NO,NO,=SI(CONTAR(LeadsActivos)<5 "SI" "NO"),Alerta si pipeline vacío
