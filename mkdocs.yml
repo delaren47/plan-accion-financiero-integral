@@ -22,6 +22,24 @@ nav:
   - KPIs: kpis_mensuales_semanales.md
   - Validación Rápida: validacion_rapida.md
   - LLC Cumplimiento Fiscal: llc_cumplimiento_fiscal.md
+  - Research & Analysis:
+    - Climbo - Metodología: metodologia_investigacion_climbo.md
+    - Climbo - Reporte: reporte_investigacion_climbo.md
+    - AI Digital Marketing - Plan: research_plan_ai_digital_marketing.md
+    - Sales Tech Partnership - Plan: research_plan_sales_tech_partnership.md
+    - Oportunidades LATAM:
+      - Research Plan: market_opportunities_latam_north_america/research_plan.md
+      - Analysis: market_opportunities_latam_north_america/analysis.md
+    - Platform Monetization:
+      - Research Plan: platform_monetization_strategies/research_plan.md
+      - Analysis: platform_monetization_strategies/analysis.md
+    - Quick Wins AI Marketing:
+      - Analysis: quick_wins_ai_digital_marketing/analysis.md
+    - Sales Tech Partnership:
+      - Analysis: sales_tech_partnership_model/analysis.md
+    - Urgent Income Strategies:
+      - Research Plan: urgent_income_strategies/research_plan.md
+      - Analysis: urgent_income_strategies/analysis.md
 markdown_extensions:
   - admonition
   - toc:
