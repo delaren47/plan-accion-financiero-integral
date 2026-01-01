@@ -1,0 +1,13 @@
+categoria,subcategoria,monto_mensual,frecuencia,proveedor,notas
+Legal,LLC Registered Agent,125,Anual (prorrateado),Northwest Registered Agent,"Wyoming LLC - $125/año = $10.42/mes"
+Legal,BOI Filing,0,Una vez,FinCEN,"Completado, no recurring"
+Tech,Hosting & Domain,15,Mensual,Vercel/Namecheap,"GitHub Pages gratis, solo domain $15/año"
+Tech,MkDocs Material,0,Mensual,N/A,"Open source, gratis"
+Tech,Automation Tools,0,Mensual,Make/Zapier,"Free tier mientras escalamos, luego $20-30/mes"
+Tech,CRM,0,Mensual,CSV,"CSV-based, gratis"
+Marketing,Cold Outreach Tools,0,Mensual,N/A,"Organic outreach, gratis por ahora"
+Software,Google Workspace,0,Mensual,Google,"Gmail gratis, Sheets gratis"
+Software,DocuSign Alternative,0,Mensual,N/A,"Usar HelloSign free tier o print+scan"
+Revenue Share,Comisión Hermano,Variable (20%),Por deal,N/A,"20% de deals atribuidos a él, calculado mensualmente"
+# TOTAL FIJOS MENSUALES,~$10-15,,,,"Extremadamente bajo overhead - Bootstrap friendly"
+# ACTUALIZAR: Agregar filas cuando agregues nuevos gastos recurrentes

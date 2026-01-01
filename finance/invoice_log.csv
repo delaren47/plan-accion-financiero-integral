@@ -1,0 +1,8 @@
+invoice_number,fecha_emision,cliente,descripcion,monto_usd,metodo_pago,fecha_pago,estado,ar_dias
+# FORMATO: INV-2026-01-001,2026-01-15,Acme Corp,Fast Cash Win - Landing Page + SEO,1500,Wire Transfer,2026-01-17,Paid,2
+# INSTRUCCIONES:
+# - invoice_number: INV-YYYY-MM-### (incrementar por mes)
+# - estado: Draft | Sent | Paid | Overdue | Cancelled
+# - ar_dias: Dias desde emision hasta pago (en blanco si Pendiente)
+# - Siempre agregar nueva fila ARRIBA de estos comentarios para mantener orden cronológico inverso
+INV-2026-01-001,,,,,,,Draft,

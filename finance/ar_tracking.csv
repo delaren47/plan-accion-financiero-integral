@@ -1,1 +1,3 @@
 fecha_factura,cliente,monto_usd,vence,dias_pendientes,estado,notas
+# EJEMPLO: 2026-01-15,Acme Corp,1500,2026-01-22,7,Pendiente,"50% upfront de Fast Cash Win - Landing Page"
+# Cuando generes tu primera factura, agrega una fila similar arriba de este comentario
