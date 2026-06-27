@@ -1,6 +1,6 @@
 # Cold Calling Scripts - PAFI Sales
 
-**Última actualización:** January 1, 2026
+**Última actualización:** January 3, 2026
 
 ---
 
@@ -578,6 +578,6 @@ Every Friday, calculate:
 ---
 
 **Script Version:** 1.0
-**Last Updated:** January 1, 2026
+**Last Updated:** January 3, 2026
 **Owner:** Alfred (Delaren Consulting LLC)
 **Milestone 1.1 Requirement:** Probar scripts con mínimo 5 llamadas antes de Jan 7

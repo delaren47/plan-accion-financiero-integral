@@ -770,7 +770,7 @@ Incorporar bajo ley federal canadiense (Corporations Canada).
 
 ---
 
-**Última Actualización:** 2 de enero, 2026
+**Última Actualización:** 3 de enero, 2026
 **Próxima Revisión:** 1 de abril, 2026 (Post tax season)
 **Jurisdicción:** Canadá (Federal + Provincial)
 **Disclaimer:** Este documento es informativo. Consulta con un CPA canadiense para advice específico a tu situación y provincia.

@@ -474,6 +474,6 @@ Regulación que obliga a que transacciones entre entidades relacionadas (ej: Del
 
 ---
 
-**Última Actualización:** 2 de enero, 2026
+**Última Actualización:** 3 de enero, 2026
 **Próxima Revisión:** 30 de junio, 2026
 **Disclaimer:** Este índice es informativo y resume guías detalladas. Para compliance específico, consulta las guías individuales de cada jurisdicción y un CPA certificado en el país correspondiente. Las leyes fiscales cambian frecuentemente - verifica siempre la información más actualizada en portales oficiales (IRS.gov, CRA.ca, SAT.gob.mx).

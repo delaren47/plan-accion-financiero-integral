@@ -311,5 +311,5 @@ See `sales/examples/propuesta_ejemplo_restaurante.md` for a fully filled-out exa
 ---
 
 **Template Version:** 1.0
-**Last Updated:** January 1, 2026
+**Last Updated:** January 3, 2026
 **Owner:** Alfred (Delaren Consulting LLC)

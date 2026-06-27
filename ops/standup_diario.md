@@ -4,7 +4,7 @@
 
 ---
 
-## 2026-01-01 (Miércoles) - Día 1/90
+## 2026-01-01 (Jueves) - Día 1/90
 
 ### ✅ Ayer Completado
 - Repositorio PAFI creado y desplegado a GitHub Pages
@@ -47,7 +47,7 @@
 
 ---
 
-## 2026-01-02 (Jueves) - Día 2/90
+## 2026-01-02 (Viernes) - Día 2/90
 
 ### ✅ Ayer Completado
 - [Completar al final del día]
@@ -82,7 +82,7 @@
 
 ---
 
-## 2026-01-03 (Viernes) - Día 3/90
+## 2026-01-03 (Sábado) - Día 3/90
 
 ### ✅ Ayer Completado
 - [Completar al final del día]

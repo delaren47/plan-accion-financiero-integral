@@ -147,5 +147,5 @@ Example: "Thank you for your business! Please remit payment by [Due Date]. If yo
 
 ---
 
-**Last Updated:** January 1, 2026
+**Last Updated:** January 3, 2026
 **Template Version:** 1.0

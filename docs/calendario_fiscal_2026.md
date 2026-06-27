@@ -579,5 +579,5 @@ Puedes duplicar esta tabla en una hoja de Google Sheets para tracking mensual:
 
 **🎯 Objetivo**: Cero sorpresas. Todos los deadlines anticipados. Compliance al 100% en las 3 jurisdicciones.
 
-**Última Actualización**: Enero 2, 2026 - Actualizado para Persona Física MX + Sole Proprietor CA
+**Última Actualización**: Enero 3, 2026 - Actualizado para Persona Física MX + Sole Proprietor CA
 **Próxima Revisión**: Enero 2027 (actualizar fechas para año fiscal 2027)

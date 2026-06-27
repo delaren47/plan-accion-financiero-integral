@@ -1134,7 +1134,7 @@ Obligación de documentar que transacciones entre partes relacionadas (ej: Delar
 
 ---
 
-**Última Actualización:** 2 de enero, 2026
+**Última Actualización:** 3 de enero, 2026
 **Próxima Revisión:** 31 de marzo, 2026 (Post declaración anual)
 **Jurisdicción:** México (Federal + Estatal)
 **Disclaimer:** Este documento es informativo. México tiene uno de los sistemas fiscales MÁS COMPLEJOS del mundo. Consulta OBLIGATORIAMENTE con contador público certificado mexicano para compliance específico a tu caso. NO intentes cumplir solo (DIY) - el riesgo de penalidades es EXTREMADAMENTE ALTO.
