@@ -2,6 +2,8 @@
 
 **Updated:** 2026-05-28
 
+> 💤 **DORMANT desde 2026-05-28.** La ventana del plan de 90 días (2025-12-31 → 2026-03-31) cerró; los rituales de §1 están suspendidos. Reactivar con un primer milestone definido. Estado canónico: `STATUS.md`. (Falta el retro de cierre del plan — actual vs meta $12K; sólo Alfredo tiene esos números — ver `NEXT_ACTIONS.md` / `ops/`.)
+
 90-day financial action plan: debt → profitability via fast-cash wins (48-72h deliverables) → monthly retainers → white-label products (Knotie-AI voice, LancePilot WhatsApp, Climbo reputation), under Delaren Consulting LLC (Wyoming). This is a markdown + CSV PM repo, not a code product. Read `~/.claude/CLAUDE.md` for global prefs.
 
 The published MkDocs site (`docs/` → GitHub Pages) is the public face; day-to-day PM happens in `ops/`, `finance/`, `sales/`. The detailed AI workflows live in **`.claude/instructions.md`** — read it for standup / weekly / monthly / new-lead / deal-closed procedures.
