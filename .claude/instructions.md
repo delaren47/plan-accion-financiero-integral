@@ -2,18 +2,53 @@
 
 This file provides Claude Code with project-specific workflows and context when working in this repository.
 
+> **Nota de relanzamiento (2026-07-17):** el proyecto es ahora **P0 — eliminación de deuda de tarjeta de crédito** (ver `DEBT_MASTER_PLAN.md`). El workflow central es la **ingesta financiera** y el ritual **Money Friday** (secciones abajo). Los workflows de negocio (standup, weekly, monthly, new-lead, deal-closed) siguen siendo válidos para el trabajo de ingresos **P1**, pero no son el foco por default.
+
 ---
 
 ## Quick Context
 
-**Project Type:** Internal business venture (90-day financial action plan)
-**Status:** Active - Phase 1 execution (Days 1-30)
+**Project Type:** Personal-finance command center (P0 debt elimination) + internal business venture (P1/P3)
+**Status:** Active — P0 debt elimination (relaunched 2026-07-17)
 **Owner:** Alfred (Delaren Consulting LLC)
 **Command:** `/pafi` (loads full context from `~/.claude/references/internal/active/plan-accion-financiero-integral/`)
 
 ---
 
+## Workflow P0 — Ingesta financiera
+
+El workflow principal en P0. Convierte estados de cuenta crudos en datos estructurados bajo `private/` (gitignored, nunca versionado).
+
+1. **Trigger:** Alfredo dice **"procesa la ingesta"** — o existen archivos en `private/ingesta/`.
+2. **Leer** cada archivo en `private/ingesta/` (PDFs, CSVs, screenshots).
+3. **Por cada estado de cuenta**, extraer: acreedor, saldo, tasa / CAT, fecha de corte, fecha límite de pago, pago mínimo, pago para no generar intereses, y los movimientos del período.
+4. **Escribir** (append-first, sólo filas identificadas; sin rewrites masivos):
+   - `private/deudas/deudas_registro.csv` — una fila por tarjeta; actualizar `saldo` + fecha `actualizado`.
+   - `private/deudas/pagos_deuda.csv` — append de cada pago.
+   - `private/ledger/ingresos.csv` — append de ingresos.
+   - `private/ledger/gastos.csv` — append de gastos.
+   - Cualquier cargo recurrente detectado → `private/ledger/suscripciones_saas.csv` con decisión `pendiente`.
+5. **Archivar:** mover el archivo procesado a `private/ingesta/procesado/YYYY-MM/`.
+6. **Regenerar** `private/DASHBOARD.md`: totales, tasa ponderada, interés/mes, próximas fechas de corte y límite, total de SaaS.
+7. **Reportar** a Alfredo: qué cambió, anomalías (cargos no reconocidos, subidas de tasa), y la única acción de mayor impacto.
+
+**Guard:** los números reales viven SÓLO en `private/`. Nunca copiar saldos a docs versionados ni al sitio MkDocs.
+
+## Workflow P0 — Money Friday
+
+Ritual semanal de 15 min (viernes):
+
+1. Procesar la ingesta pendiente (ver workflow arriba) si hay archivos nuevos.
+2. Refrescar `private/DASHBOARD.md`.
+3. Registrar los pagos de la semana en `private/deudas/pagos_deuda.csv`.
+4. Decidir el excedente semanal y aplicarlo contra la tarjeta de **mayor CAT** (avalancha — ver `DEBT_MASTER_PLAN.md`).
+5. Revisar las próximas fechas de corte para no perder ninguna.
+
+---
+
 ## Project Workflows
+
+> Los workflows de esta sección son de negocio (P1 ingresos / P3 parqueado). Válidos, pero secundarios al P0.
 
 ### Daily Standup Workflow
 When user asks for daily standup or progress update:
@@ -233,6 +268,5 @@ mkdocs gh-deploy --force
 
 ---
 
-**Last Updated:** January 3, 2026
-**Next Review:** April 1, 2026 (Post 90-day plan)
+**Last Updated:** 2026-07-17
 **Owner:** Alfred

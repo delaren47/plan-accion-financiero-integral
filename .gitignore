@@ -18,3 +18,14 @@ __pycache__/
 *.tmp
 *.bak
 *~
+
+# ── PRIVATE FINANCIAL DATA PLANE (P0 debt) — NEVER COMMIT ──
+# Personal financial data: statements, ledgers, debt registry.
+# vault-sync auto-pushes this PUBLIC repo every 15 min; everything
+# sensitive lives under private/ and stays local-only.
+private/
+# Defense-in-depth: statement-like files anywhere in the repo
+*.pdf
+*estado_de_cuenta*
+*edo_cuenta*
+*statement*
