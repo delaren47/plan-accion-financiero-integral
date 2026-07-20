@@ -1,0 +1,49 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(if [ -f requirements.txt ])",
+      "Bash(then cat requirements.txt)",
+      "Bash(else echo \"No requirements.txt found\")",
+      "Bash(fi)",
+      "Bash(ls:*)",
+      "Bash(if [ -f .cursorrules ])",
+      "Bash([ -d .cursor ])",
+      "Bash(then echo \"Cursor rules found\")",
+      "Bash(else echo \"No Cursor rules found\")",
+      "Bash(if [ -f .github/copilot-instructions.md ])",
+      "Bash(then cat .github/copilot-instructions.md)",
+      "Bash(else echo \"No copilot instructions found\")",
+      "Bash(for file in roadmap_30_60_90.md ofertas_y_precios.md kpis_mensuales_semanales.md validacion_rapida.md llc_cumplimiento_fiscal.md)",
+      "Bash(do if [ -f \"/Users/alfredodelarenal/AI/Project Management/Me/plan-accion-financiero-integral/docs/$file\" ])",
+      "Bash(then echo \"EXISTS: $file\")",
+      "Bash(else echo \"MISSING: $file\")",
+      "Bash(done)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: implementa mejoras P0/P1 para sistema operativo completo\n\nResuelve el problema cr\u00edtico de documentaci\u00f3n faltante y agrega\nherramientas operativas esenciales basadas en recomendaciones del\nProject Orchestrator.\n\nArchivos Core de Documentaci\u00f3n \\(5\\):\n- roadmap_30_60_90.md: Timeline completo de 90 d\u00edas con milestones\n- ofertas_y_precios.md: 18 productos con pricing detallado\n- kpis_mensuales_semanales.md: 25 KPIs trackeables\n- validacion_rapida.md: Metodolog\u00eda de testing de 4 fases\n- llc_cumplimiento_fiscal.md: Gu\u00eda de compliance para Wyoming LLC\n\nHerramientas Operativas \\(4\\):\n- ops/review_semanal.md: Template de review con 10 KPIs semanales\n- ops/crm_simple.csv: CRM poblado con 20 leads \\($28k pipeline\\)\n- sales/onboarding_checklist.md: Proceso de 6 fases con 50+ items\n- templates/: Directorio con deliverables reutilizables\n\nImpacto:\n- Sistema ahora 100% ejecutable desde D\u00eda 1\n- Documentaci\u00f3n navegable y completa\n- Reduce 40-50% del delivery time con templates\n- Framework de medici\u00f3n para plan de 90 d\u00edas\n\n\ud83e\udd16 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(mkdocs gh-deploy:*)",
+      "Bash(gh repo view --web)",
+      "Bash(cd:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(gh api:*)",
+      "Bash(git commit:*)",
+      "Bash(mkdocs build:*)",
+      "Bash(timeout 5 mkdocs serve:*)",
+      "Skill(project-orchestrator)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./config/credentials.json)",
+      "Read(./client_secret*.json)",
+      "Read(./service-account*.json)",
+      "Bash(cat .env*)",
+      "Bash(cat ./.env)",
+      "Bash(cat secrets/**)"
+    ]
+  }
+}
